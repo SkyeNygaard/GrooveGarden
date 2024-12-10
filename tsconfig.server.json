@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "./svrdist",
+    "noEmit": false,
+    "rootDir": "./src"
+  },
+  "include": [
+    "src/server.ts"
+  ]
+}
