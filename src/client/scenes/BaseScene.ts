@@ -26,17 +26,17 @@ export class BaseScene extends Scene implements InputListener, Listener {
 		// Load scene-specific assets
 		this.load.audio(
 			this.config.songKey,
-			`/public/songs/${this.config.songKey}`,
+			`/songs/${this.config.songKey}`,
 		);
 		this.load.json(
 			this.config.beatmapKey,
-			`/public/beatmaps/${this.config.beatmapKey}`,
+			`/beatmaps/${this.config.beatmapKey}`,
 		);
 		this.load.image(
 			this.config.backgroundKey,
-			`/public/backgrounds/${this.config.backgroundKey}`,
+			`/backgrounds/${this.config.backgroundKey}`,
 		);
-		this.load.image("elephant", "/public/sprites/elephant.png");
+		this.load.image("elephant", "/sprites/elephant.png");
 	}
 
 	create(): void {

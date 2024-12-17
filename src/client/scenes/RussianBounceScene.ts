@@ -36,11 +36,11 @@ export class RussianBounceScene
 
 	preload(): void {
 		super.preload();
-		this.load.image("matryoshka", "public/sprites/MatroshkaDoll.png");
-		this.load.image("matryoshka_top", "public/sprites/MatroshkaDollTop.png");
+		this.load.image("matryoshka", "/sprites/MatroshkaDoll.png");
+		this.load.image("matryoshka_top", "/sprites/MatroshkaDollTop.png");
 		this.load.image(
 			"matryoshka_bottom",
-			"public/sprites/MatroshkaDollBottom.png",
+			"/sprites/MatroshkaDollBottom.png",
 		);
 	}
 

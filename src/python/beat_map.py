@@ -37,7 +37,7 @@ def detect_beats(audio_path):
 
 
 def process_directory(
-  music_dir="../../public/songs", output_dir="../../public/beatmaps"
+  music_dir="../../songs", output_dir="../../beatmaps"
 ):
   """
   Process all audio files in a directory and create individual beat map files
